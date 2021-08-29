@@ -18,6 +18,10 @@ Column names:
 * password
 * strength
 
+They are three different classess:
+
+0 - Weak, 1 - Medium, 2 - Strong
+
 # Data Cleaning
 
 * Removed null values
@@ -39,10 +43,6 @@ I tried following models:
 
 # Model Performance
 XGBoost performed better on the test and validation sets
-
-They are three different classess:
-
-0 - Weak, 1 - Medium, 2 - Strong
 
 * Logistic Classifier F1 score - [0.39872153, 0.88493897, 0.74741099]
 * XGBoost - [0.96384275, 0.99101807, 0.98532687]
