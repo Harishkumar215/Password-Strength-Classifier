@@ -13,6 +13,8 @@ Packages: pandas, numpy, sklearn, XGB, matplotlib, seaborn,  pickle
 # Data
 Downloaded data from www.kaggle.com/bhavikbb/password-strength-classifier-dataset
 
+Column names
+
 * password
 * strength
 
@@ -26,7 +28,7 @@ I looked at the distribution of data and below are the few highlights: \
 ![Alt Text](https://github.com/Harishkumar215/Password-Strength-Classifier/blob/main/Figure%202021-08-29%20154533.png)
 
 # Model Building
-From EDA I found out that the dataset is unbalanced, I user K fold cross valation to split the train and test set and trained the model
+From EDA I found out that the dataset is unbalanced, I used K fold cross valation to split the train and test set and trained the model
 
 I tired different models and evaluated them using F1 score
 
